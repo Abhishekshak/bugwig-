@@ -1,5 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
+import eaFcImg from "./assets/ea-fc.png";
+import itunesImg from "./assets/itunes.png";
+import pubgImg from "./assets/pubg.png";
+import freefireImg from "./assets/Free fire.png";
+import valorantImg from "./assets/valorant.png";
 
 // ─── DATA ────────────────────────────────────────────────────────────────────
 
@@ -17,7 +22,7 @@ const FEATURED_GAMES = [
     bgColor: "#0a1628",
     accentColor: "#00d4ff",
     
-    heroImg: null,
+    heroImg: eaFcImg,
     logoText: "EA FC24",
   },
 ];
@@ -32,7 +37,7 @@ const PRODUCTS = [
     badgeColor: "#ff2d55",
     bgGradient: "linear-gradient(135deg, #1a6fe0 0%, #34c0fa 100%)",
     iconText: "🍎",
-    img: null,
+    img: itunesImg,
   },
   {
     id: 2,
@@ -42,7 +47,7 @@ const PRODUCTS = [
     badge: null,
     bgGradient: "linear-gradient(135deg, #1a1a2e 0%, #3a2a1a 100%)",
     iconText: "🎮",
-    img: null,
+    img: pubgImg,
   },
   {
     id: 3,
@@ -52,7 +57,7 @@ const PRODUCTS = [
     badge: null,
     bgGradient: "linear-gradient(135deg, #0d1b2a 0%, #1a3a5c 100%)",
     iconText: "💎",
-    img: null,
+    img: freefireImg,
   },
   {
     id: 4,
@@ -63,7 +68,7 @@ const PRODUCTS = [
     badgeColor: "#ff4655",
     bgGradient: "linear-gradient(135deg, #ff4655 0%, #c0001a 100%)",
     iconText: "🔴",
-    img: null,
+    img: valorantImg,
   },
 ];
 
